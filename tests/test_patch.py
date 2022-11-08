@@ -1441,7 +1441,7 @@ index 0000000..1111111 100644
         result = list(wtp.patch.parse_patch(text))
         self.assertEqual(1, len(result))
         self.assertEqual(1000007, len(result[0].changes))
-        self.assertGreater(10, time.time() - start_time)
+        self.assertGreater(100, time.time() - start_time)
 
 
 if __name__ == "__main__":

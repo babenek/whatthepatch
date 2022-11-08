@@ -629,6 +629,8 @@ def parse_unified_diff(text):
                     r += 1
                     i += 1
 
+        hunk.clear()
+
     if len(changes) > 0:
         return changes
 
